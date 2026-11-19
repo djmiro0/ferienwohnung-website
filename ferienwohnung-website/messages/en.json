@@ -1,0 +1,273 @@
+{
+  "locale": "en",
+  "htmlLang": "en",
+  "metadata": {
+    "title": "Ferienwohnungen Northeim | Book Direct",
+    "description": "Book the City Tiny House or Ferienwohnung Langenholtensen in Northeim direct, with live availability, parking, Wi-Fi and company invoices.",
+    "ogTitle": "Ferienwohnungen Northeim – book direct and stay with confidence",
+    "ogDescription": "Two peaceful places to stay in Northeim for holidays, business trips and longer visits."
+  },
+  "common": {
+    "brandTop": "Ferienwohnungen",
+    "brandBottom": "Northeim",
+    "directBook": "Book direct",
+    "availability": "Check availability",
+    "phone": "Phone",
+    "email": "Email",
+    "home": "Home",
+    "localeNames": {
+      "de": "Deutsch",
+      "en": "English",
+      "sr": "Srpski"
+    }
+  },
+  "navigation": {
+    "label": "Main navigation",
+    "accommodations": "Apartments",
+    "business": "Business stays",
+    "contact": "Contact",
+    "book": "Check availability",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "languageLabel": "Choose language"
+  },
+  "hero": {
+    "eyebrow": "Book direct · no portal fees",
+    "titlePrimary": "Ferienwohnungen",
+    "titleSecondary": "Northeim",
+    "lead": "Two peaceful places for short breaks, business travel and longer stays – booked personally and direct.",
+    "discover": "Explore the apartments",
+    "imageAlt": "Bright living area at the City Tiny House in Northeim",
+    "benefitsLabel": "Benefits at a glance",
+    "benefits": [
+      "2 apartments",
+      "Self check-in",
+      "Parking & Wi-Fi included",
+      "Company invoices"
+    ]
+  },
+  "bookingSearch": {
+    "ariaLabel": "Search availability",
+    "arrival": "Check-in",
+    "departure": "Check-out",
+    "guests": "Guests",
+    "guestSingular": "guest",
+    "guestPlural": "guests",
+    "accommodation": "Accommodation",
+    "all": "All apartments",
+    "tiny": "City Tiny House",
+    "langenholtensen": "Ferienwohnung Langenholtensen",
+    "submit": "Search availability",
+    "missingArrival": "Please choose a check-in date.",
+    "missingDeparture": "Please choose a check-out date.",
+    "invalidRange": "Check-out must be after check-in.",
+    "minStayHint": "Prices and availability are checked live in Smoobu.",
+    "loading": "Opening the booking search …"
+  },
+  "direct": {
+    "eyebrow": "Direct is better",
+    "titleLines": ["More of your stay.", "Fewer detours."],
+    "intro": "Book direct with Ferienwohnungen Northeim – better value than Booking.com and with a real person to contact whenever a question comes up.",
+    "benefits": [
+      {
+        "title": "No portal markup",
+        "body": "You avoid the additional fees charged by booking portals."
+      },
+      {
+        "title": "Live & reliable",
+        "body": "Prices and availability come straight from Smoobu."
+      },
+      {
+        "title": "Personal support",
+        "body": "We are here for longer stays, special requests and any questions."
+      }
+    ]
+  },
+  "accommodations": {
+    "eyebrow": "Our apartments",
+    "titleLines": ["Two addresses.", "One welcoming feeling."],
+    "intro": "Choose between a central location by the station and generous space in peaceful green surroundings.",
+    "factsLabelPrefix": "Key facts",
+    "stayEyebrow": "Your stay",
+    "amenitiesTitle": "Amenities",
+    "goodToKnow": "Good to know",
+    "book": "Book direct",
+    "items": [
+      {
+        "id": "tiny-house",
+        "name": "City Tiny House",
+        "eyebrow": "Northeim · Akazienstraße 9",
+        "headline": "Central location. All to yourself.",
+        "summary": "A fully renovated 42 m² tiny house in a quiet courtyard, just 200 metres from the railway station.",
+        "descriptions": [
+          "The City Tiny House combines short distances with plenty of privacy. A private entrance, new bathroom and fitted kitchen make every stay easy, including longer visits.",
+          "The bright living area includes a smart TV, while outside a terrace overlooks the garden. Towels and bed linen are ready when you arrive."
+        ],
+        "facts": ["42 m²", "1 bedroom", "200 m to the station", "Terrace & garden"],
+        "amenities": [
+          "Small double bed",
+          "Sofa bed in the living area",
+          "Kitchen with dishwasher",
+          "Bathroom with shower",
+          "Free Wi-Fi",
+          "Smart TV",
+          "Laundry room in the adjacent building",
+          "Parking included"
+        ],
+        "stay": [
+          { "term": "Check-in", "detail": "from 2:00 pm" },
+          { "term": "Check-out", "detail": "by 11:00 am" },
+          { "term": "Access", "detail": "contactless via key box" },
+          { "term": "Address", "detail": "Akazienstraße 9, 37154 Northeim" }
+        ],
+        "imageAlt": "Living area at the City Tiny House in Northeim",
+        "galleryLivingAlt": "Living area",
+        "galleryDetailAlt": "View"
+      },
+      {
+        "id": "langenholtensen",
+        "name": "Ferienwohnung Langenholtensen",
+        "eyebrow": "Northeim-Langenholtensen · Brunsteiner Straße",
+        "headline": "More space. Plenty of peace.",
+        "summary": "A 55 m² first-floor apartment with two bedrooms, a terrace and its own private entrance.",
+        "descriptions": [
+          "Ferienwohnung Langenholtensen gives you room to arrive and unwind: two bedrooms, a living room, a well-equipped kitchen and a bathroom with both a shower and bath.",
+          "The terrace looks out onto greenery. Northeim town centre, the A7 motorway and the Leinebergland are only a few minutes away by car."
+        ],
+        "facts": ["55 m²", "2 bedrooms", "Carport included", "Garden terrace"],
+        "amenities": [
+          "Double bed, single bed & sofa bed",
+          "Well-equipped kitchen",
+          "Bathroom with shower & bath",
+          "Satellite flat-screen TV",
+          "Free Wi-Fi",
+          "Towels & bed linen",
+          "Carport in the courtyard",
+          "Additional parking space"
+        ],
+        "stay": [
+          { "term": "Check-in", "detail": "from 3:00 pm" },
+          { "term": "Check-out", "detail": "by 12:00 noon" },
+          { "term": "Access", "detail": "contactless via key box" },
+          { "term": "Address", "detail": "Brunsteiner Str. 75, 37154 Northeim" }
+        ],
+        "imageAlt": "Living and dining area at Ferienwohnung Langenholtensen",
+        "galleryLivingAlt": "Living area",
+        "galleryDetailAlt": "View"
+      }
+    ]
+  },
+  "gallery": {
+    "galleryLabel": "Photo gallery",
+    "openPhoto": "Enlarge photo",
+    "allPhotos": "View all {count} photos",
+    "close": "Close",
+    "closeLabel": "Close photo viewer",
+    "dialogLabel": "Photo viewer",
+    "previous": "Previous",
+    "previousLabel": "Previous photo",
+    "next": "Next",
+    "nextLabel": "Next photo",
+    "photoCount": "Photo {current} of {total}"
+  },
+  "business": {
+    "eyebrow": "For companies & contractors",
+    "title": "Arrive, work, unwind.",
+    "intro": "Both apartments are well suited to business travellers, contractors and longer projects in the region. Last-minute arrivals are also possible, subject to availability.",
+    "benefits": [
+      "Invoice issued to your company address",
+      "Wi-Fi, parking and self check-in",
+      "Flexible arrangements for longer stays",
+      "Quick access to the station, town centre and A7"
+    ],
+    "cta": "Enquire about a business stay",
+    "mailSubject": "Business stay enquiry",
+    "imageAlt": "Living and dining area at Ferienwohnung Langenholtensen"
+  },
+  "booking": {
+    "eyebrow": "Direct booking",
+    "titleLines": ["Choose your dates.", "Book direct."],
+    "intro": "Select an apartment, travel dates and number of guests. Prices and availability are loaded live from Smoobu and synchronised with the booking portals.",
+    "loading": "Loading the booking calendar …",
+    "failed": "The booking calendar could not be loaded right now.",
+    "fallbackPrefix": "If the form does not appear, you can",
+    "fallbackLink": "open the secure Smoobu booking page",
+    "fallbackSuffix": "."
+  },
+  "location": {
+    "eyebrow": "Northeim & surroundings",
+    "titleLines": ["Well connected.", "Easy to reach."],
+    "facts": [
+      { "value": "200 m", "label": "from the City Tiny House to Northeim station" },
+      { "value": "about 20 min", "label": "to Göttingen by train or car" },
+      { "value": "A few minutes", "label": "from Langenholtensen to the town centre and A7" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Any questions?",
+    "titleLines": ["We are here", "to help personally."],
+    "intro": "For longer stays, contractor groups or special requests, please contact us directly."
+  },
+  "footer": {
+    "tagline": "Book direct. Arrive with confidence.",
+    "copyright": "© 2026 Ferienwohnungen Northeim",
+    "legalLabel": "Legal information",
+    "imprint": "Legal notice",
+    "privacy": "Privacy policy"
+  },
+  "mobileBooking": {
+    "label": "Book direct",
+    "action": "Check availability"
+  },
+  "legal": {
+    "back": "Back to home",
+    "eyebrow": "Legal",
+    "translationNotice": "This translation is provided for convenience. The German version is authoritative.",
+    "imprint": {
+      "metadataTitle": "Legal notice",
+      "metadataDescription": "Legal notice for Ferienwohnungen Northeim.",
+      "title": "Legal notice",
+      "providerTitle": "Information pursuant to Section 5 DDG",
+      "providerLines": ["Sofija & Lenard Mill", "Helene-Weber-Ring 17", "37154 Northeim, Germany"],
+      "contactTitle": "Contact",
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "disputeTitle": "Consumer dispute resolution",
+      "disputeBody": "We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+      "copyrightTitle": "Copyright and photographs",
+      "copyrightBody": "The photographs and content used on this website are protected by copyright. They may not be used without express permission."
+    },
+    "privacy": {
+      "metadataTitle": "Privacy policy",
+      "metadataDescription": "Privacy policy for Ferienwohnungen Northeim.",
+      "title": "Privacy policy",
+      "sections": [
+        {
+          "title": "1. Data controllers",
+          "body": "Sofija & Lenard Mill, Helene-Weber-Ring 17, 37154 Northeim, Germany\nEmail: info@ferienwohnungen-northeim.com, Phone: +49 172 8690737"
+        },
+        {
+          "title": "2. Hosting",
+          "body": "This website is hosted by Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, USA. When you access the website, the hosting provider processes technically necessary data (IP address, date and time, page requested and browser type) in server log files in order to deliver and secure the website. The legal basis is Article 6(1)(f) GDPR (legitimate interest in a secure and functional website). Netlify is certified under the EU-US Data Privacy Framework."
+        },
+        {
+          "title": "3. Smoobu booking system",
+          "body": "We use the booking system provided by Smoobu GmbH, Berlin, to display availability and accept direct bookings. When you use the booking area, your IP address and, if you make a booking, the information you enter (name, contact details, travel dates, number of guests and payment details) are transferred to Smoobu and processed there on our behalf. The legal basis is Article 6(1)(b) GDPR (steps prior to entering into a contract and performance of a contract). A data processing agreement is in place with Smoobu."
+        },
+        {
+          "title": "4. Contact by email or phone",
+          "body": "If you contact us, we process the information you provide in order to respond to your enquiry (Article 6(1)(b) GDPR). Our email is processed through Google Workspace (Google Ireland Ltd., Dublin). Statutory retention obligations, including those relating to invoices, remain unaffected."
+        },
+        {
+          "title": "5. Cookies and tracking",
+          "body": "We do not use analytics or advertising services ourselves. Within the embedded booking area, Smoobu may set technically necessary cookies required for searching and processing a booking."
+        },
+        {
+          "title": "6. Your rights",
+          "body": "You have the right to access, rectification, erasure, restriction of processing, data portability and to object to processing based on Article 6(1)(f) GDPR. To exercise these rights, please contact the address above. You may also lodge a complaint with a data protection supervisory authority, for example the State Commissioner for Data Protection of Lower Saxony."
+        }
+      ],
+      "updated": "Last updated: November 2026"
+    }
+  }
+}

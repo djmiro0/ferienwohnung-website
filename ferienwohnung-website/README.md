@@ -1,0 +1,99 @@
+# Ferienwohnungen Northeim
+
+Moderner, mobile-first Webauftritt für das **City Tiny House** und die
+**Ferienwohnung Langenholtensen**. Die Website wird mit Next.js gebaut und über
+Netlify bereitgestellt. Verfügbarkeit und Preise kommen ausschließlich aus dem
+eingebetteten Smoobu-Buchungssystem.
+
+## Technik
+
+- Next.js 16 mit App Router und React 19
+- TypeScript im Strict Mode
+- Drei vollständig statische Sprachversionen: Deutsch (`/`), Englisch (`/en`)
+  und Serbisch (`/sr`)
+- `next/image` für responsive Bildoptimierung und moderne Ausgabeformate
+- Smoobu Booking Engine für Live-Preise und Live-Verfügbarkeit
+- Statische SEO-Seiten, Sitemap, Robots-Datei und `LodgingBusiness` JSON-LD
+- Keine Analytics, externen Karten oder extern geladenen Webfonts
+
+## Lokale Entwicklung
+
+Voraussetzung: Node.js 20.9 oder neuer.
+
+```bash
+npm ci
+npm run dev
+```
+
+Danach ist die Seite unter [http://localhost:3000](http://localhost:3000)
+erreichbar.
+
+## Qualitätschecks
+
+```bash
+npm run lint
+npm run build
+```
+
+`npm run check` führt beide Prüfungen nacheinander aus. Prettier ist aktuell
+nicht als Projektabhängigkeit installiert.
+
+## Projektstruktur
+
+```text
+app/
+  (de)/              deutsche Start- und Rechtstexte unter `/`
+  [locale]/          englische und serbische Routen
+  globals.css        Layout, Komponenten und responsive Regeln
+  theme.css          einzige Quelle für alle UI-Farben und Theme-Tokens
+components/
+  BookingWidget.tsx  Smoobu-Einbettung
+  Gallery.tsx        responsive Galerie und Lightbox
+  HeroBookingSearch.tsx  Datumssuche im sichtbaren Startbereich
+  HomePage.tsx       gemeinsame, lokalisierte Startseite
+  LegalPage.tsx      gemeinsame Impressum-/Datenschutzansicht
+  RevealObserver.tsx Scroll-Animationen
+  SiteHeader.tsx     Desktop- und Mobile-Navigation
+lib/                 i18n-, Pfad- und Metadaten-Helfer
+messages/            de.json, en.json und sr.json
+public/images/       lokal gespeicherte Unterkunftsfotos
+```
+
+### Farben und Dark Mode
+
+Alle UI-Farben liegen ausschließlich in [`app/theme.css`](app/theme.css).
+Komponenten verwenden nur semantische CSS-Variablen. Light- und Dark-Tokens
+sind vorbereitet; ein späterer Theme-Schalter muss lediglich
+`data-theme="light"` oder `data-theme="dark"` am `<html>`-Element setzen.
+
+## Smoobu
+
+Die Startseite bindet den bestehenden Booking-Engine-Account `1852331` ein und
+filtert ihn auf beide Unterkünfte:
+
+- City Tiny House: `3464021`
+- Ferienwohnung Langenholtensen: `3526331`
+
+Preise oder Verfügbarkeiten dürfen nicht im Repository hinterlegt werden. Sie
+werden live durch Smoobu geladen.
+
+Die sofort sichtbare Buchungssuche übergibt Anreise, Abreise, Gästezahl und
+optional die gewählte Unterkunft an Smoobu. Der vollständige Smoobu-Widget
+bleibt zusätzlich weiter unten auf der Seite eingebettet.
+
+## Deployment über GitHub und Netlify
+
+1. Repository zu GitHub pushen.
+2. Im bestehenden Netlify-Projekt das GitHub-Repository unter Continuous
+   Deployment verbinden.
+3. Build-Befehl: `npm run build`
+4. Publish-Verzeichnis: `.next`
+5. Einen Deploy Preview prüfen und erst danach als Production Deploy
+   veröffentlichen.
+
+Die Einstellungen sind zusätzlich in `netlify.toml` dokumentiert. Netlify
+erkennt Next.js automatisch und verwendet den aktuellen OpenNext-Adapter sowie
+die Netlify Image CDN. Der Adapter soll nicht manuell gepinnt werden.
+
+Domain- und DNS-Einstellungen bleiben unverändert. Insbesondere dürfen die
+bestehenden MX-Einträge für die E-Mail-Adresse nicht geändert werden.

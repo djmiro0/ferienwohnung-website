@@ -1,0 +1,273 @@
+{
+  "locale": "sr",
+  "htmlLang": "sr-Latn",
+  "metadata": {
+    "title": "Ferienwohnungen Northeim | Rezervišite direktno",
+    "description": "Rezervišite City Tiny House ili Ferienwohnung Langenholtensen u Northeimu direktno, uz dostupnost uživo, parking, Wi-Fi i račun na firmu.",
+    "ogTitle": "Ferienwohnungen Northeim – rezervišite direktno i bez posrednika",
+    "ogDescription": "Dva mirna smeštaja u Northeimu za odmor, poslovna putovanja i duže boravke."
+  },
+  "common": {
+    "brandTop": "Ferienwohnungen",
+    "brandBottom": "Northeim",
+    "directBook": "Rezervišite direktno",
+    "availability": "Proverite dostupnost",
+    "phone": "Telefon",
+    "email": "E-mail",
+    "home": "Početna strana",
+    "localeNames": {
+      "de": "Deutsch",
+      "en": "English",
+      "sr": "Srpski"
+    }
+  },
+  "navigation": {
+    "label": "Glavna navigacija",
+    "accommodations": "Smeštaj",
+    "business": "Kompanije i monteri",
+    "contact": "Kontakt",
+    "book": "Proverite dostupnost",
+    "openMenu": "Otvorite meni",
+    "closeMenu": "Zatvorite meni",
+    "languageLabel": "Izaberite jezik"
+  },
+  "hero": {
+    "eyebrow": "Direktna rezervacija · bez provizije portala",
+    "titlePrimary": "Ferienwohnungen",
+    "titleSecondary": "Northeim",
+    "lead": "Dva mirna smeštaja za kratke odmore, poslovna putovanja i duže boravke – uz ličan kontakt i direktnu rezervaciju.",
+    "discover": "Pogledajte smeštaj",
+    "imageAlt": "Svetao dnevni boravak u objektu City Tiny House u Northeimu",
+    "benefitsLabel": "Prednosti na prvi pogled",
+    "benefits": [
+      "2 smeštaja",
+      "Samostalni check-in",
+      "Parking i Wi-Fi uključeni",
+      "Račun na firmu"
+    ]
+  },
+  "bookingSearch": {
+    "ariaLabel": "Pretraga dostupnosti",
+    "arrival": "Dolazak",
+    "departure": "Odlazak",
+    "guests": "Gosti",
+    "guestSingular": "gost",
+    "guestPlural": "gostiju",
+    "accommodation": "Smeštaj",
+    "all": "Svi smeštaji",
+    "tiny": "City Tiny House",
+    "langenholtensen": "Ferienwohnung Langenholtensen",
+    "submit": "Pretražite dostupnost",
+    "missingArrival": "Izaberite datum dolaska.",
+    "missingDeparture": "Izaberite datum odlaska.",
+    "invalidRange": "Datum odlaska mora biti posle datuma dolaska.",
+    "minStayHint": "Cene i dostupnost proveravaju se uživo u sistemu Smoobu.",
+    "loading": "Otvaramo pretragu rezervacija …"
+  },
+  "direct": {
+    "eyebrow": "Direktno je bolje",
+    "titleLines": ["Više od boravka.", "Manje zaobilaznih puteva."],
+    "intro": "Rezervišite direktno kod Ferienwohnungen Northeim – povoljnije nego preko Booking.com-a i uz osobu kojoj se možete obratiti kad god imate pitanje.",
+    "benefits": [
+      {
+        "title": "Bez dodatne provizije",
+        "body": "Ne plaćate dodatne naknade rezervacionih portala."
+      },
+      {
+        "title": "Uživo i pouzdano",
+        "body": "Cene i dostupnost preuzimaju se direktno iz sistema Smoobu."
+      },
+      {
+        "title": "Lična podrška",
+        "body": "Tu smo za duže boravke, posebne zahteve i sva vaša pitanja."
+      }
+    ]
+  },
+  "accommodations": {
+    "eyebrow": "Naš smeštaj",
+    "titleLines": ["Dve adrese.", "Isti osećaj dobrodošlice."],
+    "intro": "Izaberite centralnu lokaciju pored stanice ili prostran smeštaj u mirnom, zelenom okruženju.",
+    "factsLabelPrefix": "Osnovni podaci",
+    "stayEyebrow": "Kako ćete boraviti",
+    "amenitiesTitle": "Sadržaji",
+    "goodToKnow": "Dobro je znati",
+    "book": "Rezervišite direktno",
+    "items": [
+      {
+        "id": "tiny-house",
+        "name": "City Tiny House",
+        "eyebrow": "Northeim · Akazienstraße 9",
+        "headline": "U centru. Potpuno privatno.",
+        "summary": "Potpuno renovirana kućica od 42 m² u mirnom unutrašnjem dvorištu, samo 200 metara od železničke stanice.",
+        "descriptions": [
+          "City Tiny House spaja blizinu svega što vam je potrebno sa potpunom privatnošću. Zaseban ulaz, novo kupatilo i ugrađena kuhinja čine i duži boravak jednostavnim i prijatnim.",
+          "U svetlom dnevnom boravku nalazi se Smart TV, a napolju terasa sa pogledom na vrt. Peškiri i posteljina biće spremni po vašem dolasku."
+        ],
+        "facts": ["42 m²", "1 spavaća soba", "200 m do stanice", "Terasa i vrt"],
+        "amenities": [
+          "Francuski bračni krevet",
+          "Kauč na razvlačenje u dnevnom boravku",
+          "Kuhinja sa mašinom za sudove",
+          "Kupatilo sa tušem",
+          "Besplatan Wi-Fi",
+          "Smart TV",
+          "Vešernica u susednom objektu",
+          "Parking uključen"
+        ],
+        "stay": [
+          { "term": "Check-in", "detail": "od 14:00" },
+          { "term": "Check-out", "detail": "do 11:00" },
+          { "term": "Ulazak", "detail": "beskontaktno, putem kutije za ključeve" },
+          { "term": "Adresa", "detail": "Akazienstraße 9, 37154 Northeim" }
+        ],
+        "imageAlt": "Dnevni boravak u objektu City Tiny House u Northeimu",
+        "galleryLivingAlt": "Dnevni boravak",
+        "galleryDetailAlt": "Detalj"
+      },
+      {
+        "id": "langenholtensen",
+        "name": "Ferienwohnung Langenholtensen",
+        "eyebrow": "Northeim-Langenholtensen · Brunsteiner Straße",
+        "headline": "Više prostora. Mnogo mira.",
+        "summary": "Apartman od 55 m² na spratu porodične kuće, sa dve spavaće sobe, terasom i zasebnim ulazom.",
+        "descriptions": [
+          "Ferienwohnung Langenholtensen pruža prostor za dolazak i pravi odmor: dve spavaće sobe, dnevni boravak, dobro opremljenu kuhinju i kupatilo sa tušem i kadom.",
+          "Sa terase se pruža pogled na zelenilo. Centar Northeima, autoput A7 i oblast Leinebergland udaljeni su svega nekoliko minuta vožnje."
+        ],
+        "facts": ["55 m²", "2 spavaće sobe", "Natkriveni parking", "Terasa u zelenilu"],
+        "amenities": [
+          "Bračni krevet, krevet za jednu osobu i kauč na razvlačenje",
+          "Dobro opremljena kuhinja",
+          "Kupatilo sa tušem i kadom",
+          "Satelitski TV ravnog ekrana",
+          "Besplatan Wi-Fi",
+          "Peškiri i posteljina",
+          "Natkriveni parking u dvorištu",
+          "Dodatno parking mesto"
+        ],
+        "stay": [
+          { "term": "Check-in", "detail": "od 15:00" },
+          { "term": "Check-out", "detail": "do 12:00" },
+          { "term": "Ulazak", "detail": "beskontaktno, putem kutije za ključeve" },
+          { "term": "Adresa", "detail": "Brunsteiner Str. 75, 37154 Northeim" }
+        ],
+        "imageAlt": "Dnevni boravak i trpezarija u apartmanu Ferienwohnung Langenholtensen",
+        "galleryLivingAlt": "Dnevni boravak",
+        "galleryDetailAlt": "Detalj"
+      }
+    ]
+  },
+  "gallery": {
+    "galleryLabel": "Galerija fotografija",
+    "openPhoto": "Uvećajte fotografiju",
+    "allPhotos": "Pogledajte svih {count} fotografija",
+    "close": "Zatvori",
+    "closeLabel": "Zatvorite pregled fotografija",
+    "dialogLabel": "Pregled fotografija",
+    "previous": "Prethodna",
+    "previousLabel": "Prethodna fotografija",
+    "next": "Sledeća",
+    "nextLabel": "Sledeća fotografija",
+    "photoCount": "Fotografija {current} od {total}"
+  },
+  "business": {
+    "eyebrow": "Za kompanije i montere",
+    "title": "Stignite, radite, odmorite se.",
+    "intro": "Oba smeštaja pogodna su za poslovne putnike, montere i duže projekte u regionu. Dolazak u poslednjem trenutku takođe je moguć, u zavisnosti od raspoloživosti.",
+    "benefits": [
+      "Račun na adresu vaše kompanije",
+      "Wi-Fi, parking i samostalni check-in",
+      "Fleksibilan dogovor za duže boravke",
+      "Brza veza sa stanicom, centrom i autoputem A7"
+    ],
+    "cta": "Pošaljite upit za poslovni boravak",
+    "mailSubject": "Upit za poslovni boravak",
+    "imageAlt": "Dnevni boravak i trpezarija u apartmanu Ferienwohnung Langenholtensen"
+  },
+  "booking": {
+    "eyebrow": "Direktna rezervacija",
+    "titleLines": ["Izaberite datume.", "Rezervišite direktno."],
+    "intro": "Izaberite smeštaj, period boravka i broj gostiju. Cene i dostupnost učitavaju se uživo iz sistema Smoobu i usklađene su sa rezervacionim portalima.",
+    "loading": "Učitavamo kalendar rezervacija …",
+    "failed": "Kalendar rezervacija trenutno nije moguće učitati.",
+    "fallbackPrefix": "Ako se formular ne prikaže, možete",
+    "fallbackLink": "otvoriti bezbednu Smoobu stranicu za rezervacije",
+    "fallbackSuffix": "."
+  },
+  "location": {
+    "eyebrow": "Northeim i okolina",
+    "titleLines": ["Dobra povezanost.", "Jednostavan dolazak."],
+    "facts": [
+      { "value": "200 m", "label": "od objekta City Tiny House do stanice Northeim" },
+      { "value": "oko 20 min", "label": "do Göttingena vozom ili automobilom" },
+      { "value": "Nekoliko minuta", "label": "od Langenholtensena do centra i autoputa A7" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Imate pitanja?",
+    "titleLines": ["Lično smo vam", "na raspolaganju."],
+    "intro": "Za duže boravke, grupe montera ili posebne zahteve, obratite nam se direktno."
+  },
+  "footer": {
+    "tagline": "Rezervišite direktno. Stignite bez brige.",
+    "copyright": "© 2026 Ferienwohnungen Northeim",
+    "legalLabel": "Pravne informacije",
+    "imprint": "Impresum",
+    "privacy": "Zaštita podataka"
+  },
+  "mobileBooking": {
+    "label": "Rezervišite direktno",
+    "action": "Proverite dostupnost"
+  },
+  "legal": {
+    "back": "Nazad na početnu stranu",
+    "eyebrow": "Pravne informacije",
+    "translationNotice": "Ovaj prevod služi samo kao pomoć. Merodavna je nemačka verzija.",
+    "imprint": {
+      "metadataTitle": "Impresum",
+      "metadataDescription": "Impresum za Apartmane Northeim.",
+      "title": "Impresum",
+      "providerTitle": "Podaci u skladu sa članom 5. DDG-a",
+      "providerLines": ["Sofija & Lenard Mill", "Helene-Weber-Ring 17", "37154 Northeim, Nemačka"],
+      "contactTitle": "Kontakt",
+      "phoneLabel": "Telefon",
+      "emailLabel": "E-mail",
+      "disputeTitle": "Vansudsko rešavanje potrošačkih sporova",
+      "disputeBody": "Nismo spremni niti obavezni da učestvujemo u postupku rešavanja spora pred telom za vansudsko rešavanje potrošačkih sporova.",
+      "copyrightTitle": "Autorska prava i fotografije",
+      "copyrightBody": "Fotografije i sadržaji korišćeni na ovoj internet stranici zaštićeni su autorskim pravom. Njihovo korišćenje nije dozvoljeno bez izričite saglasnosti."
+    },
+    "privacy": {
+      "metadataTitle": "Politika privatnosti",
+      "metadataDescription": "Politika privatnosti za Apartmane Northeim.",
+      "title": "Politika privatnosti",
+      "sections": [
+        {
+          "title": "1. Rukovaoci podacima",
+          "body": "Sofija & Lenard Mill, Helene-Weber-Ring 17, 37154 Northeim, Nemačka\nE-mail: info@ferienwohnungen-northeim.com, Telefon: +49 172 8690737"
+        },
+        {
+          "title": "2. Hosting",
+          "body": "Ovu internet stranicu hostuje Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, SAD. Prilikom otvaranja stranice, hosting provajder u serverskim evidencijama obrađuje tehnički neophodne podatke (IP adresu, datum i vreme, otvorenu stranicu i tip pregledača) kako bi isporučio i zaštitio internet stranicu. Pravni osnov je član 6. stav 1. tačka f GDPR-a (legitimni interes za bezbednu i funkcionalnu internet stranicu). Netlify je sertifikovan u okviru EU-US Data Privacy Framework-a."
+        },
+        {
+          "title": "3. Smoobu sistem za rezervacije",
+          "body": "Za prikaz dostupnosti i direktne rezervacije koristimo sistem kompanije Smoobu GmbH iz Berlina. Kada koristite deo za rezervacije, vaša IP adresa i, ukoliko rezervišete, podaci koje unesete (ime, kontakt podaci, datumi putovanja, broj gostiju i podaci za plaćanje) prenose se kompaniji Smoobu i tamo obrađuju u naše ime. Pravni osnov je član 6. stav 1. tačka b GDPR-a (preduzimanje koraka pre zaključenja i izvršenje ugovora). Sa kompanijom Smoobu zaključen je ugovor o obradi podataka."
+        },
+        {
+          "title": "4. Kontakt putem e-maila ili telefona",
+          "body": "Ako nas kontaktirate, obrađujemo podatke koje navedete kako bismo odgovorili na vaš upit (član 6. stav 1. tačka b GDPR-a). Naša elektronska pošta obrađuje se putem usluge Google Workspace (Google Ireland Ltd., Dablin). Zakonske obaveze čuvanja podataka, na primer u vezi sa računima, ostaju nepromenjene."
+        },
+        {
+          "title": "5. Kolačići i praćenje",
+          "body": "Mi sami ne koristimo analitičke niti oglasne servise. U ugrađenom delu za rezervacije Smoobu može postaviti tehnički neophodne kolačiće potrebne za pretragu i obradu rezervacije."
+        },
+        {
+          "title": "6. Vaša prava",
+          "body": "Imate pravo na pristup, ispravku, brisanje, ograničenje obrade, prenosivost podataka i prigovor na obradu zasnovanu na članu 6. stavu 1. tački f GDPR-a. Za ostvarivanje ovih prava obratite se na gore navedenu adresu. Takođe možete podneti pritužbu nadležnom organu za zaštitu podataka, na primer Povereniku za zaštitu podataka savezne pokrajine Donja Saksonija."
+        }
+      ],
+      "updated": "Ažurirano: novembar 2026."
+    }
+  }
+}

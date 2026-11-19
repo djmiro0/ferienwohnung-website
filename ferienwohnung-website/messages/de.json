@@ -1,0 +1,273 @@
+{
+  "locale": "de",
+  "htmlLang": "de",
+  "metadata": {
+    "title": "Ferienwohnungen Northeim | Direkt buchen",
+    "description": "City Tiny House und Ferienwohnung Langenholtensen in Northeim direkt buchen – mit Live-Verfügbarkeit, Parkplatz, WLAN und Rechnung für Firmen.",
+    "ogTitle": "Ferienwohnungen Northeim – direkt und persönlich buchen",
+    "ogDescription": "Zwei ruhige Unterkünfte in Northeim für Urlaub, Geschäftsreisen und längere Aufenthalte."
+  },
+  "common": {
+    "brandTop": "Ferienwohnungen",
+    "brandBottom": "Northeim",
+    "directBook": "Direkt buchen",
+    "availability": "Verfügbarkeit prüfen",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "home": "Startseite",
+    "localeNames": {
+      "de": "Deutsch",
+      "en": "English",
+      "sr": "Srpski"
+    }
+  },
+  "navigation": {
+    "label": "Hauptnavigation",
+    "accommodations": "Unterkünfte",
+    "business": "Firmen & Monteure",
+    "contact": "Kontakt",
+    "book": "Verfügbarkeit prüfen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "languageLabel": "Sprache wählen"
+  },
+  "hero": {
+    "eyebrow": "Direkt buchen · ohne Portalgebühren",
+    "titlePrimary": "Ferienwohnungen",
+    "titleSecondary": "Northeim",
+    "lead": "Zwei ruhige Unterkünfte für Kurztrips, Geschäftsreisen und längere Aufenthalte – persönlich und direkt gebucht.",
+    "discover": "Unterkünfte entdecken",
+    "imageAlt": "Heller Wohnbereich des City Tiny House in Northeim",
+    "benefitsLabel": "Vorteile auf einen Blick",
+    "benefits": [
+      "2 Unterkünfte",
+      "Self-Check-in",
+      "Parkplatz & WLAN inklusive",
+      "Rechnung für Firmen"
+    ]
+  },
+  "bookingSearch": {
+    "ariaLabel": "Verfügbarkeit suchen",
+    "arrival": "Anreise",
+    "departure": "Abreise",
+    "guests": "Gäste",
+    "guestSingular": "Gast",
+    "guestPlural": "Gäste",
+    "accommodation": "Unterkunft",
+    "all": "Alle Unterkünfte",
+    "tiny": "City Tiny House",
+    "langenholtensen": "Ferienwohnung Langenholtensen",
+    "submit": "Verfügbarkeit suchen",
+    "missingArrival": "Bitte wählen Sie ein Anreisedatum.",
+    "missingDeparture": "Bitte wählen Sie ein Abreisedatum.",
+    "invalidRange": "Die Abreise muss nach der Anreise liegen.",
+    "minStayHint": "Preise und Verfügbarkeit werden live in Smoobu geprüft.",
+    "loading": "Buchungssuche wird geöffnet …"
+  },
+  "direct": {
+    "eyebrow": "Direkt ist besser",
+    "titleLines": ["Mehr Aufenthalt.", "Weniger Umwege."],
+    "intro": "Buchen Sie direkt bei Ferienwohnungen Northeim – günstiger als über Booking.com und mit persönlichem Kontakt, wenn eine Frage auftaucht.",
+    "benefits": [
+      {
+        "title": "Ohne Portalaufschlag",
+        "body": "Sie sparen die zusätzlichen Gebühren der Buchungsportale."
+      },
+      {
+        "title": "Live & verbindlich",
+        "body": "Preise und Verfügbarkeit kommen direkt aus Smoobu."
+      },
+      {
+        "title": "Persönlich erreichbar",
+        "body": "Für längere Aufenthalte und besondere Wünsche sind wir direkt für Sie da."
+      }
+    ]
+  },
+  "accommodations": {
+    "eyebrow": "Unsere Unterkünfte",
+    "titleLines": ["Zwei Adressen.", "Ein gutes Gefühl."],
+    "intro": "Wählen Sie zwischen zentraler Lage am Bahnhof und großzügiger Ruhe im Grünen.",
+    "factsLabelPrefix": "Eckdaten",
+    "stayEyebrow": "So wohnen Sie",
+    "amenitiesTitle": "Ausstattung",
+    "goodToKnow": "Gut zu wissen",
+    "book": "Direkt buchen",
+    "items": [
+      {
+        "id": "tiny-house",
+        "name": "City Tiny House",
+        "eyebrow": "Northeim · Akazienstraße 9",
+        "headline": "Zentral wohnen. Ganz für sich.",
+        "summary": "Ein kernsaniertes, 42 m² großes Tiny House im ruhigen Innenhof – nur 200 Meter vom Bahnhof entfernt.",
+        "descriptions": [
+          "Das City Tiny House verbindet kurze Wege mit viel Privatsphäre. Ein eigener Eingang, das neue Bad und die Einbauküche machen es unkompliziert, auch für längere Aufenthalte.",
+          "Im hellen Wohnbereich wartet ein Smart-TV, draußen eine Terrasse mit Blick in den Garten. Handtücher und Bettwäsche liegen bei Ihrer Ankunft bereit."
+        ],
+        "facts": ["42 m²", "1 Schlafzimmer", "200 m zum Bahnhof", "Terrasse & Garten"],
+        "amenities": [
+          "Französisches Doppelbett",
+          "Schlafsofa im Wohnbereich",
+          "Küche mit Geschirrspüler",
+          "Bad mit Dusche",
+          "Kostenloses WLAN",
+          "Smart-TV",
+          "Waschraum im Nebengebäude",
+          "Parkplatz inklusive"
+        ],
+        "stay": [
+          { "term": "Check-in", "detail": "ab 14:00 Uhr" },
+          { "term": "Check-out", "detail": "bis 11:00 Uhr" },
+          { "term": "Zugang", "detail": "kontaktlos per Schlüsselbox" },
+          { "term": "Adresse", "detail": "Akazienstraße 9, 37154 Northeim" }
+        ],
+        "imageAlt": "Wohnbereich des City Tiny House in Northeim",
+        "galleryLivingAlt": "Wohnbereich",
+        "galleryDetailAlt": "Eindruck"
+      },
+      {
+        "id": "langenholtensen",
+        "name": "Ferienwohnung Langenholtensen",
+        "eyebrow": "Northeim-Langenholtensen · Brunsteiner Straße",
+        "headline": "Mehr Raum. Viel Ruhe.",
+        "summary": "55 m² im Obergeschoss eines Zweifamilienhauses – mit zwei Schlafzimmern, Terrasse und eigenem Eingang.",
+        "descriptions": [
+          "Die Ferienwohnung bietet Platz zum Ankommen und Abschalten: zwei Schlafzimmer, ein Wohnzimmer, eine gut ausgestattete Küche sowie ein Bad mit Dusche und Badewanne.",
+          "Von der Terrasse blicken Sie ins Grüne. Die Northeimer Innenstadt, die A7 und das Leinebergland erreichen Sie in wenigen Minuten mit dem Auto."
+        ],
+        "facts": ["55 m²", "2 Schlafzimmer", "Carport inklusive", "Terrasse im Grünen"],
+        "amenities": [
+          "Doppelbett, Einzelbett & Schlafsofa",
+          "Gut ausgestattete Küche",
+          "Bad mit Dusche & Badewanne",
+          "Sat-Flachbild-TV",
+          "Kostenloses WLAN",
+          "Handtücher & Bettwäsche",
+          "Carport im Innenhof",
+          "Zusätzlicher Stellplatz"
+        ],
+        "stay": [
+          { "term": "Check-in", "detail": "ab 15:00 Uhr" },
+          { "term": "Check-out", "detail": "bis 12:00 Uhr" },
+          { "term": "Zugang", "detail": "kontaktlos per Schlüsselbox" },
+          { "term": "Adresse", "detail": "Brunsteiner Str. 75, 37154 Northeim" }
+        ],
+        "imageAlt": "Wohn- und Essbereich der Ferienwohnung Langenholtensen",
+        "galleryLivingAlt": "Wohnbereich",
+        "galleryDetailAlt": "Eindruck"
+      }
+    ]
+  },
+  "gallery": {
+    "galleryLabel": "Fotogalerie",
+    "openPhoto": "Foto vergrößern",
+    "allPhotos": "Alle {count} Fotos",
+    "close": "Schließen",
+    "closeLabel": "Fotoansicht schließen",
+    "dialogLabel": "Fotoansicht",
+    "previous": "Zurück",
+    "previousLabel": "Vorheriges Foto",
+    "next": "Weiter",
+    "nextLabel": "Nächstes Foto",
+    "photoCount": "Foto {current} von {total}"
+  },
+  "business": {
+    "eyebrow": "Für Firmen & Monteure",
+    "title": "Ankommen, arbeiten, abschalten.",
+    "intro": "Beide Unterkünfte eignen sich für Geschäftsreisende, Monteure und längere Projekte in der Region. Auch kurzfristige Anreisen sind nach Verfügbarkeit möglich.",
+    "benefits": [
+      "Rechnung auf Ihre Firmenanschrift",
+      "WLAN, Parkplatz und Self-Check-in",
+      "Flexible Absprachen bei längeren Aufenthalten",
+      "Schnelle Anbindung an Bahnhof, Innenstadt und A7"
+    ],
+    "cta": "Firmenaufenthalt anfragen",
+    "mailSubject": "Firmenanfrage",
+    "imageAlt": "Wohn- und Essbereich der Ferienwohnung Langenholtensen"
+  },
+  "booking": {
+    "eyebrow": "Direktreservierung",
+    "titleLines": ["Reisedaten wählen.", "Direkt buchen."],
+    "intro": "Wählen Sie Unterkunft, Reisezeitraum und Personenzahl. Preise und Verfügbarkeit werden live aus Smoobu geladen und sind mit den Buchungsportalen synchronisiert.",
+    "loading": "Buchungskalender wird geladen …",
+    "failed": "Der Buchungskalender konnte gerade nicht geladen werden.",
+    "fallbackPrefix": "Falls das Formular nicht erscheint, können Sie die",
+    "fallbackLink": "sichere Smoobu-Buchungsseite öffnen",
+    "fallbackSuffix": "."
+  },
+  "location": {
+    "eyebrow": "Northeim & Umgebung",
+    "titleLines": ["Gut angebunden.", "Schnell angekommen."],
+    "facts": [
+      { "value": "200 m", "label": "vom City Tiny House zum Bahnhof Northeim" },
+      { "value": "ca. 20 Min.", "label": "mit der Bahn oder dem Auto nach Göttingen" },
+      { "value": "Wenige Minuten", "label": "von Langenholtensen zur Innenstadt und A7" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Noch Fragen?",
+    "titleLines": ["Wir sind persönlich", "für Sie erreichbar."],
+    "intro": "Für längere Aufenthalte, Monteursgruppen oder besondere Wünsche melden Sie sich gern direkt."
+  },
+  "footer": {
+    "tagline": "Direkt buchen. Persönlich ankommen.",
+    "copyright": "© 2026 Ferienwohnungen Northeim",
+    "legalLabel": "Rechtliche Informationen",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz"
+  },
+  "mobileBooking": {
+    "label": "Direkt buchen",
+    "action": "Verfügbarkeit prüfen"
+  },
+  "legal": {
+    "back": "Zur Startseite",
+    "eyebrow": "Rechtliches",
+    "translationNotice": "",
+    "imprint": {
+      "metadataTitle": "Impressum",
+      "metadataDescription": "Impressum von Ferienwohnungen Northeim.",
+      "title": "Impressum",
+      "providerTitle": "Angaben gemäß § 5 DDG",
+      "providerLines": ["Sofija & Lenard Mill", "Helene-Weber-Ring 17", "37154 Northeim"],
+      "contactTitle": "Kontakt",
+      "phoneLabel": "Telefon",
+      "emailLabel": "E-Mail",
+      "disputeTitle": "Verbraucherstreitbeilegung",
+      "disputeBody": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+      "copyrightTitle": "Urheberrecht und Fotografien",
+      "copyrightBody": "Die auf dieser Website verwendeten Fotografien und Inhalte sind urheberrechtlich geschützt. Eine Verwendung ohne ausdrückliche Zustimmung ist nicht gestattet."
+    },
+    "privacy": {
+      "metadataTitle": "Datenschutzerklärung",
+      "metadataDescription": "Datenschutzerklärung von Ferienwohnungen Northeim.",
+      "title": "Datenschutzerklärung",
+      "sections": [
+        {
+          "title": "1. Verantwortliche",
+          "body": "Sofija & Lenard Mill, Helene-Weber-Ring 17, 37154 Northeim\nE-Mail: info@ferienwohnungen-northeim.com, Telefon: +49 172 8690737"
+        },
+        {
+          "title": "2. Hosting",
+          "body": "Diese Website wird bei Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, USA gehostet. Beim Aufruf der Seite verarbeitet der Hoster technisch notwendige Daten (IP-Adresse, Datum und Uhrzeit, aufgerufene Seite, Browsertyp) in Server-Logfiles, um die Website auszuliefern und abzusichern. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem sicheren und funktionierenden Internetauftritt). Netlify ist unter dem EU-US Data Privacy Framework zertifiziert."
+        },
+        {
+          "title": "3. Buchungssystem Smoobu",
+          "body": "Für Verfügbarkeitsanzeige und Direktbuchung nutzen wir das Buchungssystem der Smoobu GmbH, Berlin. Wenn Sie den Buchungsbereich nutzen, werden Ihre IP-Adresse und, sofern Sie buchen, Ihre eingegebenen Daten (Name, Kontaktdaten, Reisedaten, Personenzahl, Zahlungsangaben) an Smoobu übertragen und dort in unserem Auftrag verarbeitet. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung und -erfüllung). Mit Smoobu besteht ein Vertrag zur Auftragsverarbeitung."
+        },
+        {
+          "title": "4. Kontakt per E-Mail oder Telefon",
+          "body": "Wenn Sie uns kontaktieren, verarbeiten wir Ihre Angaben, um Ihre Anfrage zu beantworten (Art. 6 Abs. 1 lit. b DSGVO). Unsere E-Mails werden über Google Workspace (Google Ireland Ltd., Dublin) verarbeitet. Gesetzliche Aufbewahrungspflichten, etwa für Rechnungen, bleiben unberührt."
+        },
+        {
+          "title": "5. Cookies und Tracking",
+          "body": "Wir setzen selbst keine Analyse- oder Werbedienste ein. Im eingebetteten Buchungsbereich kann Smoobu technisch erforderliche Cookies setzen, die für Suche und Buchungsabwicklung benötigt werden."
+        },
+        {
+          "title": "6. Ihre Rechte",
+          "body": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie Widerspruch gegen Verarbeitungen auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wenden Sie sich dazu an die oben genannte Adresse. Sie können sich außerdem bei einer Datenschutz-Aufsichtsbehörde beschweren, zum Beispiel bei der Landesbeauftragten für den Datenschutz Niedersachsen."
+        }
+      ],
+      "updated": "Stand: November 2026"
+    }
+  }
+}
