@@ -1,0 +1,7 @@
+[build]
+  base = "ferienwohnung-website"
+  command = "npm ci --include=dev && npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
