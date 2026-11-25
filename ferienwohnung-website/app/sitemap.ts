@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { languageAlternates, localizedPath, locales } from "@/lib/i18n";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://ferienwohnungen-northeim.com";
   const pages = [

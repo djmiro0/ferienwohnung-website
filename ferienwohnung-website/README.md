@@ -88,14 +88,14 @@ bleibt zusätzlich weiter unten auf der Seite eingebettet.
 1. Repository zu GitHub pushen.
 2. Im bestehenden Netlify-Projekt das GitHub-Repository unter Continuous
    Deployment verbinden.
-3. Build-Befehl: `npm run build`
-4. Publish-Verzeichnis: `.next`
-5. Einen Deploy Preview prüfen und erst danach als Production Deploy
-   veröffentlichen.
+3. Das Basisverzeichnis `ferienwohnung-website` und das Publish-Verzeichnis
+   `out` aus der `netlify.toml` im Repository-Stamm übernehmen.
+4. Im Deploy Preview die Startseiten (`/`, `/en`, `/sr`), einen Rechtstext und
+   die Bilder prüfen und erst danach als Production Deploy veröffentlichen.
 
-Die Einstellungen sind zusätzlich in `netlify.toml` dokumentiert. Netlify
-erkennt Next.js automatisch und verwendet den aktuellen OpenNext-Adapter sowie
-die Netlify Image CDN. Der Adapter soll nicht manuell gepinnt werden.
+`npm run build` exportiert statische HTML-Seiten und Assets nach `out`.
+Netlify veröffentlicht nur diesen Ordner und benötigt dafür keinen Next.js-Server.
+Die responsiven Bilder werden weiterhin über das Netlify Image CDN ausgeliefert.
 
 Domain- und DNS-Einstellungen bleiben unverändert. Insbesondere dürfen die
 bestehenden MX-Einträge für die E-Mail-Adresse nicht geändert werden.

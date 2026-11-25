@@ -1,12 +1,16 @@
 import type { NextConfig } from "next";
+import { PHASE_DEVELOPMENT_SERVER } from "next/constants";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-  experimental: {
-    agentFeedback: true,
-  },
-  cacheComponents: true,
-  partialPrefetching: true,
-};
+export default function nextConfig(phase: string): NextConfig {
+  if (phase === PHASE_DEVELOPMENT_SERVER) {
+    return { experimental: { agentFeedback: true } };
+  }
 
-export default nextConfig;
+  return {
+    output: "export",
+    images: {
+      loader: "custom",
+      loaderFile: "./lib/netlify-image-loader.ts",
+    },
+  };
+}
