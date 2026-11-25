@@ -1,6 +1,6 @@
 [build]
-  base = "ferienwohnung-website"
-  command = "npm ci --include=dev && npm run build"
+  base = "."
+  command = "npm run build"
   publish = ".next"
 
 [build.environment]
