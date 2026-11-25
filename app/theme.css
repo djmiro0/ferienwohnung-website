@@ -1,0 +1,61 @@
+:root {
+  /* Follow the system preference while the layout uses its default light attribute. */
+  color-scheme: light dark;
+
+  --palette-forest: #09251c;
+  --palette-ochre: #a55704;
+  --palette-peach: #f3d2af;
+  --palette-cream: #f8eadc;
+  --white: #fff;
+  --transparent: transparent;
+
+  --forest: var(--palette-forest);
+  --forest-deep: color-mix(in srgb, var(--forest), black 24%);
+  --dark-raised: color-mix(in srgb, var(--forest), var(--palette-cream) 8%);
+  --dark-surface: color-mix(in srgb, var(--forest), var(--palette-cream) 13%);
+  --cream: light-dark(var(--palette-cream), var(--dark-raised));
+  --cream-light: light-dark(color-mix(in srgb, var(--palette-cream), var(--white) 40%), var(--forest));
+  --sand: light-dark(var(--palette-peach), var(--dark-raised));
+  --terracotta: var(--palette-ochre);
+  --terracotta-hover: color-mix(in srgb, var(--terracotta), var(--forest) 16%);
+  --accent-text: light-dark(var(--terracotta-hover), var(--palette-peach));
+  --ink: light-dark(var(--forest), var(--palette-cream));
+  --muted: light-dark(
+    color-mix(in srgb, var(--forest), var(--palette-cream) 28%),
+    color-mix(in srgb, var(--palette-cream), var(--forest) 22%)
+  );
+  --surface: light-dark(var(--white), var(--dark-surface));
+  --on-dark: var(--palette-cream);
+  --on-accent: var(--white);
+
+  --line: color-mix(in srgb, var(--ink) 20%, transparent);
+  --line-soft: color-mix(in srgb, var(--ink) 13%, transparent);
+  --on-dark-line: rgba(255, 255, 255, 0.24);
+  --on-dark-line-soft: rgba(255, 255, 255, 0.18);
+  --on-dark-line-strong: rgba(255, 255, 255, 0.38);
+  --on-dark-border: rgba(255, 255, 255, 0.5);
+  --on-dark-control-border: rgba(255, 255, 255, 0.35);
+  --on-dark-soft: rgba(255, 255, 255, 0.84);
+  --on-dark-copy: rgba(255, 255, 255, 0.75);
+  --on-dark-muted: rgba(255, 255, 255, 0.62);
+  --on-dark-faint: rgba(255, 255, 255, 0.55);
+  --on-dark-hover: rgba(255, 255, 255, 0.1);
+
+  --header-background: color-mix(in srgb, var(--forest) 90%, transparent);
+  --header-background-open: color-mix(in srgb, var(--forest) 98%, transparent);
+  --mobile-bar-background: color-mix(in srgb, var(--forest) 96%, transparent);
+  --gallery-overlay: color-mix(in srgb, var(--forest) 84%, transparent);
+  --lightbox-overlay: color-mix(in srgb, var(--forest-deep) 96%, transparent);
+
+  --hero-overlay-strong: rgba(7, 28, 22, 0.9);
+  --hero-overlay-medium: rgba(7, 28, 22, 0.66);
+  --hero-overlay-light: rgba(7, 28, 22, 0.12);
+  --hero-overlay-bottom: rgba(7, 28, 22, 0.68);
+  --hero-mobile-strong: rgba(7, 28, 22, 0.87);
+  --hero-mobile-light: rgba(7, 28, 22, 0.42);
+  --hero-mobile-bottom: rgba(7, 28, 22, 0.88);
+  --hero-accent: var(--palette-peach);
+
+  --legal-copy: var(--muted);
+  --mobile-bar-shadow: rgba(0, 0, 0, 0.24);
+}

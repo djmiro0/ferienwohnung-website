@@ -70,7 +70,7 @@ h3 {
 }
 
 :focus-visible {
-  outline: 3px solid var(--terracotta);
+  outline: 3px solid var(--focus-ring, var(--accent-text));
   outline-offset: 4px;
 }
 
@@ -85,7 +85,7 @@ h3 {
 
 .eyebrow {
   margin-bottom: 16px;
-  color: var(--terracotta);
+  color: var(--accent-text);
   font-size: 0.72rem;
   font-weight: 750;
   letter-spacing: 0.18em;
@@ -121,7 +121,7 @@ h3 {
 
 .button-primary {
   background: var(--terracotta);
-  color: var(--on-dark);
+  color: var(--on-accent);
 }
 
 .button-primary:hover {
@@ -129,6 +129,7 @@ h3 {
 }
 
 .button-dark {
+  border-color: var(--line);
   background: var(--forest);
   color: var(--on-dark);
 }
@@ -144,7 +145,7 @@ h3 {
 
 .button-light:hover {
   border-color: var(--on-dark);
-  background: var(--surface);
+  background: var(--on-dark);
   color: var(--forest);
 }
 
@@ -350,7 +351,7 @@ h3 {
 
 .hero h1 span:last-child {
   margin-left: 0.52em;
-  color: var(--cream);
+  color: var(--on-dark);
   font-style: italic;
 }
 
@@ -422,7 +423,7 @@ h3 {
   border-radius: 12px;
   padding: 14px 20px;
   background: var(--terracotta);
-  color: var(--on-dark);
+  color: var(--on-accent);
   cursor: pointer;
   font-size: 0.82rem;
   font-weight: 750;
@@ -549,7 +550,7 @@ h3 {
 }
 
 .benefit-list > li > span {
-  color: var(--terracotta);
+  color: var(--accent-text);
   font-size: 0.72rem;
   font-weight: 750;
 }
@@ -641,7 +642,7 @@ h3 {
   top: -5px;
   right: 32px;
   margin: 0;
-  color: var(--terracotta);
+  color: var(--accent-text);
   font-family: var(--font-display);
   font-size: 1.55rem;
   font-style: italic;
@@ -983,7 +984,7 @@ h3 {
 
 .booking-fallback a {
   border-bottom: 1px solid currentColor;
-  color: var(--forest);
+  color: var(--ink);
   font-weight: 700;
 }
 
@@ -1023,9 +1024,10 @@ h3 {
 }
 
 .contact-section {
+  --focus-ring: var(--on-accent);
   padding-block: clamp(56px, 7vw, 88px);
   background: var(--terracotta);
-  color: var(--on-dark);
+  color: var(--on-accent);
 }
 
 .contact-inner {
@@ -1033,7 +1035,7 @@ h3 {
 }
 
 .contact-inner .eyebrow {
-  color: var(--contact-eyebrow);
+  color: var(--on-accent);
 }
 
 .contact-inner h2 {
@@ -1044,7 +1046,7 @@ h3 {
 .contact-inner > p:not(.eyebrow) {
   max-width: 650px;
   margin: 0 auto 30px;
-  color: var(--on-dark-soft);
+  color: var(--on-accent);
   font-size: 1.05rem;
 }
 
@@ -1188,7 +1190,7 @@ h3 {
 }
 
 .legal-page section a {
-  color: var(--forest);
+  color: var(--ink);
   font-weight: 700;
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -1822,9 +1824,9 @@ h3 {
 }
 
 .legal-language-switcher a[aria-current="page"] {
-  border-color: var(--forest);
-  background: var(--forest);
-  color: var(--on-dark);
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--cream-light);
 }
 
 .legal-notice {
