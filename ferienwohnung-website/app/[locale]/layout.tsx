@@ -5,7 +5,7 @@ export function generateStaticParams() {
   return [{ locale: "en" }, { locale: "sr" }];
 }
 
-export default async function LocalizedRootLayout({ children, params }: LayoutProps<"/[locale]">) {
+export default async function LocalizedLayout({ children, params }: LayoutProps<"/[locale]">) {
   const { locale } = await params;
   if (!isTranslatedLocale(locale)) notFound();
 

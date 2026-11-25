@@ -44,10 +44,12 @@ nicht als Projektabhängigkeit installiert.
 app/
   (de)/              deutsche Start- und Rechtstexte unter `/`
   [locale]/          englische und serbische Routen
+  layout.tsx         gemeinsames Root-Layout für Navigation ohne Seiten-Reload
   globals.css        Layout, Komponenten und responsive Regeln
   theme.css          einzige Quelle für alle UI-Farben und Theme-Tokens
 components/
   BookingWidget.tsx  Smoobu-Einbettung
+  DocumentLanguage.tsx  aktualisiert das Dokument-Lang bei Soft Navigation
   Gallery.tsx        responsive Galerie und Lightbox
   HeroBookingSearch.tsx  Datumssuche im sichtbaren Startbereich
   HomePage.tsx       gemeinsame, lokalisierte Startseite
